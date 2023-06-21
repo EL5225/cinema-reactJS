@@ -58,7 +58,7 @@ export const Navbar = () => {
         className="flex items-center w-[7rem] justify-between"
       >
         <Button onClick={toggleTheme}>
-          {theme === "light" ? <MoonIcon /> : <SunIcon />}
+          {theme === "light" ? <SunIcon /> : <MoonIcon />}
         </Button>
         <Button>
           <ElipsisIcon />
